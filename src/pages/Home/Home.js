@@ -1,12 +1,14 @@
 import React from 'react';
+import FlowersBanner from './FlowersBanner';
+import Footer from './Footer';
 import Header from './Header';
 
 const Home = () => {
     return (
         <div>
             <Header />
-            <h1 className='text-queen-pink'>Mind curves</h1>
-
+            <FlowersBanner />
+            <Footer />
         </div>
     );
 };
