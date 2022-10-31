@@ -5,7 +5,7 @@ import Header from './Header';
 
 const Home = () => {
     return (
-        <div>
+        <div className='bg-queen-pink'>
             <Header />
             <FlowersBanner />
             <Footer />
