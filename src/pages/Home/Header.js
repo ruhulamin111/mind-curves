@@ -5,9 +5,9 @@ import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 const Header = () => {
 
     return (
-        <div>
+        <div className=' '>
             <div>
-                <nav x-data="{ isOpen: false }" class="relative bg-white text-third shadow dark:bg-gray-800">
+                <nav x-data="{ isOpen: false }" class="relative  bg-white text-third shadow dark:bg-gray-800">
                     <div class="container px-6 py-3 mx-auto">
                         <div class="flex flex-col md:flex-row md:justify-between md:items-center">
                             <div class="flex items-center justify-between">
