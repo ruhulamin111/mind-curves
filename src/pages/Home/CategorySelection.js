@@ -15,8 +15,6 @@ const CategorySelection = () => {
                 </span>
                 <sapan>
                     <ChevronRightIcon />
-                    {/* <label  className="btn">open modal</label> */}
-
                 </sapan>
             </label>
             <label htmlFor='gift-type' className='flex items-center gap-2 justify-between rounded-md border p-2 cursor-pointer'>

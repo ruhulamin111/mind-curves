@@ -1,7 +1,7 @@
 
 import image101 from '../flowers/image101.jpg'
-import image102 from '../flowers/image102.webp'
-import image103 from '../flowers/image103.webp'
+import image102 from '../flowers/image102.jpg'
+import image103 from '../flowers/image103.jpg'
 
 const flowers = [
     {
@@ -22,9 +22,9 @@ const flowers = [
         reviews: 120,
         star: 5,
         category: "Flower",
-        image101: image101,
-        image102: image102,
-        image103: image103,
+        image11: image101,
+        image12: image102,
+        image13: image103,
     },
     {
         id: 3,
