@@ -1,10 +1,9 @@
-import { Star } from '@mui/icons-material';
 import React from 'react'
 import { Link } from 'react-router-dom';
 
 const FlowerItem = ({ flower }) => {
     console.log('flower', flower)
-    const { id, star, name, price, reviews, image11 } = flower;
+    const { star, name, price, reviews, image11 } = flower;
     console.log('flower', flower);
 
     return (
