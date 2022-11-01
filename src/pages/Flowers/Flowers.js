@@ -4,11 +4,10 @@ import FlowerItem from './FlowerItem'
 
 const Flowers = () => {
     const [flowersItem, setFlowersItem] = useState([])
-
     useEffect(() => {
-        const data = flowers.filter(flower => flower.category === 'Flower'
+        const filtered = flowers.filter(flower => flower.category === 'Flower'
         )
-        setFlowersItem(data)
+        setFlowersItem(filtered)
     }, [])
 
 
@@ -17,9 +16,8 @@ const Flowers = () => {
             <h1>hello</h1>
             <div className="grid grid-cols-4 gap-5">
                 {
-                    flowersItem.map((flower, index) => {
-                        <FlowerItem key={index} flower={flower} ></FlowerItem>
-                    })
+                    flowersItem.map((flower, index) => <FlowerItem key={index} flower={flower} ></FlowerItem>
+                    )
                 }
             </div>
 
